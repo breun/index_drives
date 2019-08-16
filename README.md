@@ -7,7 +7,7 @@ A Bash script to create an index of all files and directories on mounted drives,
 1. Download the script:
 
 ```bash
-curl https://github.com/breun/index_drives/raw/master/index_drives.sh
+curl -OL https://github.com/breun/index_drives/raw/master/index_drives.sh
 ```
 
 2. Make the script executable:
