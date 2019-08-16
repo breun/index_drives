@@ -33,3 +33,5 @@ After setting up, you can execute the script:
 ```
 
 Any existing files for previously indexed drives will be overwritten with the current state of affairs. Any existing files for previously indexed, but currently not connected drives will remain untouched.
+
+Run the script periodically to update your index files.
