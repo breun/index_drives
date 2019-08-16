@@ -16,6 +16,8 @@ A script to create an index of all files and directories on mounted drives, incl
 	a. You can exclude any drives you don’t want indexed, like for instance your internal drives and backup drives, on the line starting with “EXCLUDED_DRIVES=“. By default drives named “Macintosh HD”, “Time Machine” and “com.apple.TimeMachine.localsnapshots” are excluded from indexing.
 	b. You can specify where you want the index files to be stored on the line starting with “OUTPUT_DIR=“. By default these files are stored in a folder called "External Drive indices” in your home directory.
 
+## Index
+
 After setting up, you can execute the script:
 
 	./index_external_drives.sh
