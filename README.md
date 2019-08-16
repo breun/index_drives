@@ -21,7 +21,7 @@ chmod +x index_drives.sh
   - `Macintosh HD`
   - `Time Machine`
   - `com.apple.TimeMachine.localsnapshots`
-- You can specify where you want the index files to be stored on the line starting with `OUTPUT_DIR=`. By default these files are stored in a folder called `External Drive indices` in your home directory.
+- You can specify where you want the index files to be stored on the line starting with `OUTPUT_DIR=`. By default these files are stored in a folder called `External Drive indices` in your home directory. The output directory will automatically be created if it doesn't exist yet.
 
 ## Index
 
