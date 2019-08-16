@@ -1,6 +1,6 @@
 # index_drives
 
-A script to create an index of all files and directories on mounted drives, including metadata.
+A script to create an index of all files and directories on mounted drives, including metadata. Having this information can be useful when you don't know on what external drive a specific file is stored, or when trying to recover files from a damaged drive.
 
 ## Setup
 
