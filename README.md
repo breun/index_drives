@@ -34,4 +34,15 @@ After setting up, you can execute the script:
 
 Any existing files for previously indexed drives will be overwritten with the current state of affairs. Any existing files for previously indexed, but currently not connected drives will remain untouched.
 
+The index files contain columns for the following data (as output by `find`'s `-ls` option):
+- inode number
+- size in 512-byte blocks
+- file permissions
+- number of hard links
+- owner
+- group
+- size in bytes
+- last modification time
+- pathname
+
 Run the script periodically to update your index files.
