@@ -59,7 +59,7 @@ write_index() {
 
 create_output_directory_if_needed() {
   if [ ! -d "${OUTPUT_DIR}" ]; then
-    echo "Creating output directory '${OUTPUT_DIR}'"
+    echo "Creating output directory '${OUTPUT_DIR}'."
     mkdir -p "${OUTPUT_DIR}"
   fi
 }
